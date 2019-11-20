@@ -8,9 +8,9 @@ This repository contains an approach for dealing with backing up GitHub (and oth
 
 * `projects.sh` should contain an array of projects and `base_url` specifying where to pull from (currently this is shared across all projects).
 
-* Set up an `archives.sh` file. This should contain all folders that need to be backed up (from remotes) and that have been setup as above. See `example-archives.sh` for an example.
+* Modify the `archives.sh` file. This should contain all folders that need to be backed up (from remotes) and that have been setup as above. See `example-archives.sh` for a runnable example.
 
-* Run the following bash command. This will clone repositories listed in each `projects.sh` when they are not present and otherwise pull new updates.
+* Run the following bash command (modifying to use your arhives file). This will clone repositories listed in each `projects.sh` when they are not present and otherwise pull new updates .
 
 ```bash
 bash update.sh example-archives.sh
