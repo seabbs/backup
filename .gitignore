@@ -1,0 +1,4 @@
+#Ignore everything in the example folder
+example
+#Except for the projects array
+!example/projects.sh
