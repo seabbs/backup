@@ -10,13 +10,13 @@ This repository contains an approach for dealing with backing up GitHub (and oth
 
 * Modify the `archives.sh` file. This should contain all folders that need to be backed up (from remotes) and that have been setup as above. See `example-archives.sh` for a runnable example.
 
-* (**Optional**) Run the following example bash command to check everything is work.
+* (**Optional**) Run the following example bash command to check everything is work. *Warning: This will clone 3 of my repos - you may want to adjust this*.
 
 ```bash
 bash update.sh example-archives.sh
 ```
 
-* Run the following bash command (modifying to use your arhives file). This will clone repositories listed in each `projects.sh` when they are not present and otherwise pull new updates.
+* Run the following bash command (modifying to use your archives file). This will clone repositories listed in each `projects.sh` when they are not present and otherwise pull new updates.
 
 ```bash
 bash update.sh archives.sh
