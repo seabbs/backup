@@ -1,6 +1,6 @@
 # Manage local GitHub backups
 
-This repository contains an approach for dealing with backing up GitHub (and other remotes) locally. **It does not backup local work to remotes.** This approach has been developedfor my own use so use with care. Please let me know if you have any suggestions for improvements.
+This repository contains an approach for dealing with backing up GitHub (and other remotes) locally. **It does not backup local work to remotes.** This approach has been developed for my own use so use with care. Please let me know if you have any suggestions for improvements.
 
 # How it works
 
