@@ -16,6 +16,14 @@ This repository contains an approach for dealing with backing up GitHub (and oth
 bash update.sh example-archives.sh
 ```
 
+* (**Optional**) Clean up the example.
+
+```bash
+mkdir tmp && cp example/projects.sh tmp/projects.sh
+rm -r -f example && mv tmp example
+```
+
+
 * Run the following bash command (modifying to use your archives file). This will clone repositories listed in each `projects.sh` when they are not present and otherwise pull new updates.
 
 ```bash
